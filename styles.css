@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+.flex {
+
+    display: flex;
+    justify-content: space-between;
+
+    background-color: Blue;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    
+
+  }
+
+  
+
+  .flex > div {
+
+    background-color: red;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    font-size: 30px;
+
+  }
